@@ -47,7 +47,7 @@ int main()
     }
 
     floyd();
-    
+
     while (q--)
     {
         int a, b;
@@ -57,5 +57,7 @@ int main()
         else
             printf("%d\n", d[a][b]);
     }
+
+    system("pause");
     return 0;
 }
